@@ -9,6 +9,6 @@ jobs:
         id: hello
         uses: actions/hello-world-docker-action@v1
         with:
-          who-to-greet: 'Me'
+          who-to-greet: 'Mark'
       - name: get the output time
         run: echo "the time was ${{ steps.hello.outputs.time }}"
